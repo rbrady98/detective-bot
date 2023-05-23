@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "nodenext",                                /* Specify what module code is generated. */
+    "baseUrl": "./src",
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "outDir": "build",
+    "rootDir": "src",
+    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "moduleResolution": "node16"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
